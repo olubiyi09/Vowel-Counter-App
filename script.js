@@ -20,16 +20,3 @@ function Vowelscounter(e) {
   result.innerHTML = `${inputValue.value} contains ${count} vowel(s)`;
   inputValue.value = "";
 }
-
-// function countVowels(e) {
-//   e.preventDefault();
-//   let word = document.querySelector(".input-area").value;
-//   for (w of word) {
-//     for (v of vowels) {
-//       if (w == v) {
-//         counter++;
-//       }
-//     }
-//   }
-//   result.innerHTML = `${word} contains ${counter} vowel(s)`;
-// }
